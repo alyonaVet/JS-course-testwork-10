@@ -2,6 +2,7 @@ import express from 'express';
 import cors, {CorsOptions} from 'cors';
 import newsRouter from "./routers/news";
 import commentsRouter from "./routers/comments";
+import fileDb from "./fileDb";
 
 const app = express();
 const port = 8000;
@@ -23,6 +24,7 @@ app.use('/comments', commentsRouter);
 
 
 const run = async () => {
+    await fileDb.init();
 
     app.listen(port, () => {
         console.log(`Server running at http://localhost:${port}`);
