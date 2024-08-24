@@ -27,6 +27,27 @@
       "description": "Nature is an important and integral part of mankind. It is one of the greatest blessings for human life; however, nowadays humans fail to recognize it as one. Nature has been an inspiration for numerous poets, writers, artists and more of yesteryears. This remarkable creation inspired them to write poems and stories in the glory of it.",
       "image": "images/3557ce64-4b21-42b8-a7e2-218d8e648d4b.jpeg",
       "created_at": "2024-08-24T13:19:39.617Z"
+    },
+    {
+      "id": "e69d284d-f77f-448b-a25c-6bdd2d7d8a3f",
+      "title": "Significance of Nature",
+      "description": "If nature has the ability to protect us, it is also powerful enough to destroy the entire mankind. Every form of nature, for instance, the plants, animals, rivers, mountains, moon, and more holds equal significance for us. Absence of one element is enough to cause a catastrophe in the functioning of human life.  We fulfill our healthy lifestyle by eating and drinking healthy, which nature gives us. Similarly, it provides us with water and food that enables us to do so. Rainfall and sunshine, the two most important elements to survive are derived from nature itself.",
+      "image": null,
+      "created_at": "2024-08-24T13:28:46.457Z"
+    },
+    {
+      "id": "51540a9a-b0bc-4158-8afb-106dd33c4b42",
+      "title": "Conservation of Nature",
+      "description": "In order to conserve nature, we must take drastic steps right away to prevent any further damage. The most important step is to prevent deforestation at all levels. Cutting down of trees has serious consequences in different spheres. It can cause soil erosion easily and also bring a decline in rainfall on a major level.",
+      "image": null,
+      "created_at": "2024-08-24T13:29:41.971Z"
+    },
+    {
+      "id": "ab9a1ea4-88e1-43a8-9dac-73c50e58842f",
+      "title": "Earth",
+      "description": "Earth is the only planet known to support life, and its natural features are the subject of many fields of scientific research. ",
+      "image": null,
+      "created_at": "2024-08-24T13:34:23.814Z"
     }
   ],
   "comments": [
@@ -47,6 +68,36 @@
       "oneNews_id": "7bf396eb-6dea-4024-83c0-df99b20b918c",
       "author": "D C",
       "description": "I like it!"
+    },
+    {
+      "id": "d337344b-2794-470b-8987-bc5729412f64",
+      "oneNews_id": "e69d284d-f77f-448b-a25c-6bdd2d7d8a3f",
+      "author": null,
+      "description": "Wow"
+    },
+    {
+      "id": "c590ab3d-6b1c-4885-950a-cce16ebdfe46",
+      "oneNews_id": "51540a9a-b0bc-4158-8afb-106dd33c4b42",
+      "author": null,
+      "description": "Like it!"
+    },
+    {
+      "id": "e2bc622c-3b4c-48de-8e03-d0d30b973626",
+      "oneNews_id": "ab9a1ea4-88e1-43a8-9dac-73c50e58842f",
+      "author": null,
+      "description": "It is awesome!"
+    },
+    {
+      "id": "29bd11d2-035b-4eb9-8b60-e3fb75fa86e9",
+      "oneNews_id": "ab9a1ea4-88e1-43a8-9dac-73c50e58842f",
+      "author": "G H",
+      "description": "Good!"
+    },
+    {
+      "id": "2629b106-9eba-42a1-a16e-3d23a072083e",
+      "oneNews_id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
+      "author": "Jack",
+      "description": "Super!!!"
     }
   ]
 }
