@@ -60,6 +60,11 @@ const fileDb = {
         data.comments = data.comments.filter(comment => comment.id !== id);
         await this.save();
     },
+    async deleteCommentsOfNews(newsId: string) {
+        data.comments = data.comments.filter(comment => comment.oneNews_id !== newsId);
+        await this.save();
+
+    },
     async save() {
         return fs.writeFile(fileName, JSON.stringify(data, null, 2));
     }

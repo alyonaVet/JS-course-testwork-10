@@ -48,11 +48,15 @@ newsRouter.post("/", imagesUpload.single('image'), async (req, res, next) => {
 
 newsRouter.delete("/:id", async (req, res, next) => {
     const oneNewsId = req.params.id;
+
     try {
+        await fileDb.deleteCommentsOfNews(oneNewsId);
         await fileDb.deleteOneNews(oneNewsId);
+
         return res.status(200).send({message: "Item was deleted successfully"});
     } catch (error) {
         next(error);
-    }});
+    }
+});
 
 export default newsRouter;
