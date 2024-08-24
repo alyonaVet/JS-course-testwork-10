@@ -1,4 +1,64 @@
 {
-  "news": [],
-  "comments": []
+  "news": [
+    {
+      "id": "7bf396eb-6dea-4024-83c0-df99b20b918c",
+      "title": "Good morning",
+      "description": "It is really good morning",
+      "image": "images/74b9ab8b-9855-4aaf-bed4-858f9b5d6183.jpeg",
+      "created_at": "2024-08-24T06:51:40.137Z"
+    },
+    {
+      "id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
+      "title": "Local Library Launches Free Coding Classes",
+      "description": "The downtown library has introduced free coding classes for beginners, aimed at empowering the local community with essential tech skills. The program will cover basic HTML, CSS, and JavaScript. Classes start next month and are open to all age groups.\n\n\n",
+      "image": "images/4e4dfbd8-f13e-46d6-b35e-6690e1c88d76.jpeg",
+      "created_at": "2024-08-24T06:56:38.857Z"
+    },
+    {
+      "id": "7473cec6-4f0f-47c6-9bcf-7bbf59ef3f76",
+      "title": "Good",
+      "description": "Good ",
+      "image": "images/33b2c1fe-68ac-4330-b3b3-a63cbf496558.jpeg",
+      "created_at": "2024-08-24T09:48:07.229Z"
+    },
+    {
+      "id": "d856b531-e479-4f98-9707-56baf8a2874d",
+      "title": "Look here!",
+      "description": "Nature is an important and integral part of mankind. It is one of the greatest blessings for human life; however, nowadays humans fail to recognize it as one. Nature has been an inspiration for numerous poets, writers, artists and more of yesteryears. This remarkable creation inspired them to write poems and stories in the glory of it.",
+      "image": "images/3557ce64-4b21-42b8-a7e2-218d8e648d4b.jpeg",
+      "created_at": "2024-08-24T13:19:39.617Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "oneNews_id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
+      "author": null,
+      "description": "very good place"
+    },
+    {
+      "id": "22d7cd4c-6c06-42a5-b4eb-176a0c7d08bd",
+      "oneNews_id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
+      "author": null,
+      "description": "I like this place"
+    },
+    {
+      "id": "8617f9db-dada-421e-a3ed-37bb5656c397kdk",
+      "oneNews_id": "27473cec6-4f0f-47c6-9bcf-7bbf59ef3f76",
+      "author": "Alex N",
+      "description": "very good place"
+    },
+    {
+      "id": "8617f9db-dada-421e-a3ed-37bb5656c397kdko",
+      "oneNews_id": "7bf396eb-6dea-4024-83c0-df99b20b918c",
+      "author": "Alex N",
+      "description": "very good place"
+    },
+    {
+      "id": "a0fe5acb-c2c8-40c8-9bbf-134d7e510d6e",
+      "oneNews_id": "d856b531-e479-4f98-9707-56baf8a2874d",
+      "author": null,
+      "description": "Really awesome"
+    }
+  ]
 }
