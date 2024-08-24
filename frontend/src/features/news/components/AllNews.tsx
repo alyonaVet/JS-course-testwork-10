@@ -14,9 +14,9 @@ const AllNews = () => {
     dispatch(fetchNews());
   }, [dispatch]);
 
-  const handleDelete = (newsId: string) => {
-    dispatch(deleteOneNews(newsId));
-    dispatch(fetchNews());
+  const handleDelete = async (newsId: string) => {
+    await dispatch(deleteOneNews(newsId));
+    await dispatch(fetchNews());
   };
 
   return (

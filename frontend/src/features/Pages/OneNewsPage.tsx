@@ -27,14 +27,14 @@ const OneNewsPage = () => {
   }, [dispatch, params.newsId]);
 
 
-  const handleDelete = (commentId: string) => {
-    dispatch(deleteComment(commentId));
-    dispatch(fetchComments(params.newsId));
+  const handleDelete = async (commentId: string) => {
+    await dispatch(deleteComment(commentId));
+    await dispatch(fetchComments(params.newsId));
   };
 
-  const onFormSubmit = (oneComment: CommentType) => {
-    dispatch(createComment(oneComment));
-    dispatch(fetchComments(params.newsId));
+  const onFormSubmit = async (oneComment: CommentType) => {
+    await dispatch(createComment(oneComment));
+    await dispatch(fetchComments(params.newsId));
   };
 
   return (
