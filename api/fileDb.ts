@@ -1,5 +1,5 @@
 import {promises as fs} from 'fs';
-import {Comment, OneNews, OneNewsType} from "./types";
+import {Comment, CommentType, OneNews, OneNewsType} from "./types";
 
 const fileName = './db.json';
 let data = {
@@ -41,6 +41,23 @@ const fileDb = {
     },
     async deleteOneNews(id: string) {
         data.news = data.news.filter(oneNews => oneNews.id !== id);
+        await this.save();
+    },
+    async getComments(oneNews_id: string) {
+        if (oneNews_id) {
+            return data.comments.filter(comment => comment.oneNews_id === oneNews_id);
+        }
+        return [];
+    },
+    async addComment(comment: CommentType) {
+        const id = crypto.randomUUID();
+        const commentData = {id, ...comment};
+        data.comments.push(commentData);
+        await this.save();
+        return commentData;
+    },
+    async deleteComment(id: string) {
+        data.comments = data.comments.filter(comment => comment.id !== id);
         await this.save();
     },
     async save() {
