@@ -4,7 +4,7 @@ import {Button, Paper, Stack, Typography} from '@mui/material';
 export interface Comment {
   author: string | null;
   description: string;
-  onDelete: (id: string) => void;
+  onDelete: () => void;
 }
 
 const OneComment: React.FC<Comment> = ({author, description, onDelete}) => {
