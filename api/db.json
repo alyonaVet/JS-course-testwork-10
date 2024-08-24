@@ -31,26 +31,8 @@
   ],
   "comments": [
     {
-      "id": "1",
-      "oneNews_id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
-      "author": null,
-      "description": "very good place"
-    },
-    {
-      "id": "22d7cd4c-6c06-42a5-b4eb-176a0c7d08bd",
-      "oneNews_id": "461832a5-b6ad-4826-9d34-efa914bddcb3",
-      "author": null,
-      "description": "I like this place"
-    },
-    {
       "id": "8617f9db-dada-421e-a3ed-37bb5656c397kdk",
       "oneNews_id": "27473cec6-4f0f-47c6-9bcf-7bbf59ef3f76",
-      "author": "Alex N",
-      "description": "very good place"
-    },
-    {
-      "id": "8617f9db-dada-421e-a3ed-37bb5656c397kdko",
-      "oneNews_id": "7bf396eb-6dea-4024-83c0-df99b20b918c",
       "author": "Alex N",
       "description": "very good place"
     },
@@ -59,6 +41,12 @@
       "oneNews_id": "d856b531-e479-4f98-9707-56baf8a2874d",
       "author": null,
       "description": "Really awesome"
+    },
+    {
+      "id": "61c9085d-1b9a-462b-9e0c-df968d1f3439",
+      "oneNews_id": "7bf396eb-6dea-4024-83c0-df99b20b918c",
+      "author": "D C",
+      "description": "I like it!"
     }
   ]
 }
