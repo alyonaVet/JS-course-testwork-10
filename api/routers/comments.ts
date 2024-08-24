@@ -5,15 +5,19 @@ import {CommentType} from "../types";
 const commentsRouter = express.Router();
 
 commentsRouter.get("/", async (req, res, next) => {
-    const { news_id } = req.query;
+    try {
+        const { news_id } = req.query;
 
-    if (typeof news_id !== 'string') {
-        return res.status(400).json({ error: "Invalid or missing news_id parameter" });
+        if (typeof news_id !== 'string') {
+            return res.status(400).json({ error: "Invalid or missing news_id parameter" });
+        }
+
+        const comments = await fileDb.getComments(news_id);
+
+        res.send(comments);
+    } catch (error) {
+        next(error);
     }
-
-    const comments = await fileDb.getComments(news_id);
-
-    res.send(comments);
 });
 
 commentsRouter.post("/", async (req, res, next) => {
