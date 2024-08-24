@@ -6,7 +6,7 @@ export interface OneNews {
     created_at: string;
 }
 
-export type OneNewsType = Omit<OneNews, 'id'>;
+export type OneNewsType = Omit<OneNews, 'id' | 'created_at'>;
 
 export interface Comment {
     id: string;
